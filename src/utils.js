@@ -2,6 +2,8 @@ import { adjectives, nouns } from "./words";
 import nodemailer from 'nodemailer';
 import sgTransport from 'nodemailer-sendgrid-transport';
 import env from 'dotenv';
+import jwt from 'jsonwebtoken';
+
 env.config();
 
 export const generateSecret = () => {
@@ -31,3 +33,5 @@ export const sendSecretMail = (address, secret) => {
     }
     return sendMail(email);
 }
+
+export const generateToken = (id) => jwt.sign({id}, process.env.JWT_SECRET)
