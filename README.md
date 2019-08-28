@@ -4,15 +4,21 @@ GraphQL, React, Prisma, React Native
 ## User Stories
 
 - [x] Create account
-- [] Request Secret
-- [] Confirm Secret (Login)
-- [] Like / Unlike a photo
-- [] Commnet on a photo
-- [] Search by user
-- [] Search by location
-- [] See user profile
-- [] Follow / Unfollow User
-- [] Edit my profile
-- [] Upload a photo
-- [] Edit the photo (Delete)
-- [] See the feed
+- [x] Request Secret
+- [x] Confirm Secret (Login)
+- [x] Like / Unlike a photo
+- [x] Commnet on a photo
+- [x] Search by user
+- [x] Search by location
+- [x] Follow 
+- [x] Unfollow User
+- [x] Edit my profile
+- [x] See user profile
+- [x] See my profile
+- [x] See the full photo
+- [x] Upload a photo
+- [x] Edit the photo (Delete)
+- [x] See the feed
+- [x] See room
+- [x] Send private Message
+- [x] Receive Message (Realtime)
